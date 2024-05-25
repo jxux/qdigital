@@ -9,7 +9,7 @@
                                 Get started with a <br />
                                 free account
                             </h1>
-                            <p class="signup-link">Already have an account? <router-link to="/auth/login">Log in</router-link></p>
+                            <p class="signup-link">Already have an account? <router-link :to="{name: 'auth.login'}">Log in</router-link></p>
                             <form class="text-start">
                                 <div class="form">
                                     <div id="username-field" class="field-wrapper input">

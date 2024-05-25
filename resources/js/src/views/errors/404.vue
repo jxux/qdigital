@@ -4,7 +4,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-4 me-auto mt-5 text-md-start text-center">
-                        <a href="index.html" class="ms-md-5">
+                        <a href="/" class="ms-md-5">
                             <img alt="image-404" src="/assets/images/logo2.svg" class="theme-logo" />
                         </a>
                     </div>
@@ -14,8 +14,8 @@
                 <div class="">
                     <h1 class="error-number">404</h1>
                     <p class="mini-text">Ooops!</p>
-                    <p class="error-text mb-4 mt-1">The page you requested was not found!</p>
-                    <a href="/" class="btn btn-primary mt-5">Go Back</a>
+                    <p class="error-text mb-4 mt-1">¡La página que solicitaste no fue encontrada!</p>
+                    <a href="/" class="btn btn-primary mt-5">Regresar!</a>
                 </div>
             </div>
         </div>

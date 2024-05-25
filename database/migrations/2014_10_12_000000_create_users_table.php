@@ -18,6 +18,8 @@ return new class extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
+            $table->tinyInteger('account_role')->default(1);
+            $table->tinyInteger('is_active')->nullable()->default(1);
             $table->timestamps();
         });
     }
